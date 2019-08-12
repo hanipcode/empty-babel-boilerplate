@@ -1,0 +1,29 @@
+{
+  "name": "beyond-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prestart": "npm run build",
+    "start": "node dist/index.js",
+    "dev": "nodemon ./src/index.js --exec babel-node"
+  },
+  "author": "Muhammad Hanif",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1",
+    "@babel/cli": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.5.5",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb": "18.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}
