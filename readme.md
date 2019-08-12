@@ -4,7 +4,7 @@
 
 Starter Pack for framework A and framework B Is Good
 But what if what you need is just an empty babel project that
-you can fill in the blank yourself with already neccessary command add
+you can fill in the blank yourself with already neccessary command added
 
 ## Included command
 
