@@ -5,6 +5,7 @@ const AppSchema = new mongoose.Schema(
     isSuccess: Boolean,
     response: mongoose.Schema.Types.Mixed,
     userName: String,
+    curl: String,
     routeName: String,
     env: String,
   },
