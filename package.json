@@ -11,11 +11,15 @@
   },
   "author": "Muhammad Hanif",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.0",
+    "mongoose-jsonapi-filter": "^0.6.0"
+  },
   "devDependencies": {
-    "@babel/node": "^7.5.5",
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
