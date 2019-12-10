@@ -12,6 +12,7 @@
   "author": "Muhammad Hanif",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.7.0",
     "express": "^4.17.1",
     "mongoose": "^5.8.0",
     "mongoose-jsonapi-filter": "^0.6.0"
